@@ -118,24 +118,6 @@ Se desejar alterar a arquitetura da rede neural ou treinar com novos hiperparâm
 
 ---
 
-## 🌐 Publicação no GitHub Pages
-
-Para disponibilizar o seu projeto online gratuitamente com HTTPS:
-
-1. Faça o commit e push dos arquivos para o seu repositório no GitHub:
-   ```bash
-   git add .
-   git commit -m "feat: complete in-browser mnist recognizer"
-   git push origin main
-   ```
-2. No repositório do GitHub, vá em **Settings** → **Pages**.
-3. Na seção **Build and deployment**:
-   * **Source**: `Deploy from a branch`
-   * **Branch**: `main` (ou sua branch de preferência) / pasta `/(root)`
-4. Clique em **Save**. Em menos de 2 minutos o site estará online no link `https://seu-usuario.github.io/nome-do-repositorio/`.
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 * **[TensorFlow.js](https://www.tensorflow.org/js)** — Execução de inferência de Deep Learning no navegador.
