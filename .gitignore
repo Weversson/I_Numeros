@@ -1,0 +1,14 @@
+# Ambientes virtuais e Python
+__pycache__/
+*.py[cod]
+*.class
+venv/
+.env
+
+# Logs e testes temporários
+*.log
+.playwright-mcp/
+page-*.png
+iphone-*.png
+lucide-*.png
+eraser-*.png
