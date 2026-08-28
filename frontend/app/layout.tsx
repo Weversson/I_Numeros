@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Reconhecedor de Números",
+  title: "Reconhecimento de Dígitos Manuscritos",
   description:
-    "Desenhe um dígito de 0 a 9 e uma rede neural em Python o reconhece em tempo real usando uma matriz de bits 28×28.",
+    "Aplicação de reconhecimento de dígitos manuscritos de 0 a 9, baseada em uma rede neural multicamadas treinada com o conjunto MNIST.",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR">
-      <body className="min-h-screen bg-slate-950 text-slate-100 antialiased">
+      <body className="min-h-screen bg-slate-50 text-slate-800 antialiased">
         {children}
       </body>
     </html>

@@ -45,9 +45,9 @@ export default function MatrixPreview({
   return (
     <figure className="flex flex-col items-center gap-2">
       <div
-        className={`overflow-hidden rounded-lg border ${
-          active ? "border-violet-500/40 shadow-lg shadow-violet-500/10" : "border-white/10"
-        } bg-black/40 p-1`}
+        className={`overflow-hidden rounded-md border ${
+          active ? "border-slate-400" : "border-slate-300"
+        } bg-black p-1`}
       >
         <canvas
           ref={ref}
@@ -56,7 +56,7 @@ export default function MatrixPreview({
           aria-label={label}
         />
       </div>
-      <figcaption className="text-center text-[10px] font-medium uppercase tracking-wider text-slate-500">
+      <figcaption className="text-xs font-medium text-slate-600">
         {label}
       </figcaption>
     </figure>
