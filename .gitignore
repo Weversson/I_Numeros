@@ -1,0 +1,31 @@
+# Python
+backend/venv/
+backend/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+backend/server.log
+backend/train.log
+frontend/dev.log
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ferramentas de build
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
